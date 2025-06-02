@@ -24,7 +24,8 @@ public class showroom implements utility{
            String managerName;
            int emp_count;
            int total_car;
-
+            System.out.println("======================= *** ENTER SHOWROOM DETAILS *** =======================");
+            System.out.println();
             System.out.print("Enter showroom name: ");
             showroomName = scan.nextLine();
             this.showroom_name = showroomName;

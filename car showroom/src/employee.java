@@ -17,11 +17,15 @@ public class employee implements utility {
         UUID id = UUID.randomUUID();
         emp_id =String.valueOf(id) ;
         Scanner scan = new Scanner(System.in);
+        System.out.println("======================= *** ENTER EMPLOYEE DETAILS *** =======================");
+        System.out.println();
         System.out.print("Enter Employee Name: ");
         emp_name = scan.nextLine();
-        System.out.println("Enter Employee Age: ");
+
+        System.out.print("Enter Employee Age: ");
         emp_age = scan.nextInt();
-        System.out.println("Enter Employee E-gmail: ");
+        scan.nextLine();
+        System.out.print("Enter Employee E-gmail: ");
         emp_email = scan.nextLine();
 
     }
