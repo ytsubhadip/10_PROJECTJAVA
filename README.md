@@ -1,4 +1,4 @@
-<h1>Project upload soon!</h1>
+<h1>All Project uploads soon!</h1>
 <p>😃😃Using OPPS concepts, I make this project </p>
 <hr>
 <h2>All project List: </h2>
